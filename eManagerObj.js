@@ -20,7 +20,7 @@ var commands = {
         .verify.valueContains('@title', "Spider-Man")
         .click('@delete')
         .api.acceptAlert()
-        .waitForElementNotPresent('@greenGoblin')
+        .waitForElementNotPresent('@spiderman')
         return this 
     },    
     greenGoblin: function (goblinInfo){
